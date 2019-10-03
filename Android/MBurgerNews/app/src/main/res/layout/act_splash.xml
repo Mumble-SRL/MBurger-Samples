@@ -8,8 +8,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerInside"
-            android:scaleX="0.6"
-            android:scaleY="0.6"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
             android:src="@drawable/splash_img"/>
 
 </RelativeLayout>

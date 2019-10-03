@@ -21,8 +21,6 @@ import mumble.mburger.sdk.MBClient.MBurgerMapper
 import mumble.mburger.sdk.MBClient.MBurgerTasks
 import java.util.*
 
-const val BLOCK_NEWS = 623L
-
 class Act_list : MBApiSectionsResultListener, AppCompatActivity() {
 
     lateinit var pd: ProgressDialog
@@ -104,7 +102,7 @@ class Act_list : MBApiSectionsResultListener, AppCompatActivity() {
             filters.add(MBFilterParameter("category", selected_category))
         }
 
-        MBurgerTasks.askForSections(this, BLOCK_NEWS, filters, true, this)
+        MBurgerTasks.askForSections(this, Config.BLOCK_NEWS, filters, true, this)
         pd.show()
     }
 
