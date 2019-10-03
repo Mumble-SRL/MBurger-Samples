@@ -11,8 +11,9 @@ import com.mumble.mburger.news_sample.R
 class Config {
     companion object {
 
-        //Edit with your APi Key
-        val MBurgerAPiKey = "1c760df953f1669323e443a9548c284eb6d24112"
+        /**Edit with your MBurger APi Key and News Block id**/
+        val MBurgerAPiKey = ""
+        val BLOCK_NEWS = -1L
 
         //Category values
         const val CAT_SPORT = "sport"
