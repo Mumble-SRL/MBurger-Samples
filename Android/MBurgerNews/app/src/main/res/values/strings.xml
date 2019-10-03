@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MBurger News</string>
+    <string name="loading">Loading</string>
+    <string name="all">All</string>
+    <string name="sport">Sport</string>
+    <string name="tech">Tech</string>
+    <string name="society">Society</string>
+    <string name="news">News</string>
+    <string name="no_elements">No elements</string>
+</resources>
