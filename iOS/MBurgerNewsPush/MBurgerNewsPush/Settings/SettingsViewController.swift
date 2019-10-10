@@ -27,11 +27,8 @@ class SettingsViewController: UIViewController {
     
     @objc func switchValueChanged(_ sender: UISwitch) {
         NotificationsController.shared.pushNotificationsEnabled = sender.isOn
-        if sender.isOn {
-            subscribe()
-        } else {
-            unsubscribe()
-        }
+        
+        sender.isOn ? subscribe() : unsubscribe()
     }
     
     fileprivate func unsubscribe() {
@@ -57,7 +54,7 @@ extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
         
         let switchView = UISwitch(frame: .zero)
         switchView.setOn(NotificationsController.shared.pushNotificationsEnabled, animated: true)
-        switchView.tag = indexPath.row // for detect which row switch Changed
+        switchView.tag = indexPath.row
         switchView.addTarget(self, action: #selector(switchValueChanged(_:)), for: .valueChanged)
         cell?.accessoryView = switchView
         cell?.textLabel?.text = rowTitle
