@@ -11,7 +11,6 @@ import Down
 import MBurger
 
 class NewsDetailViewController: UIViewController {
-
     var news: News?
     var sectionId: Int?
     
@@ -21,7 +20,7 @@ class NewsDetailViewController: UIViewController {
     @IBOutlet weak var labelDate: UILabel!
     @IBOutlet weak var labelCategory: UILabel!
     @IBOutlet weak var labelContent: UILabel!
-
+    
     @IBOutlet weak var imagesCollectionView: UICollectionView!
 
     override func viewDidLoad() {

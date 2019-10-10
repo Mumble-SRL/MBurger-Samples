@@ -101,13 +101,8 @@ class NewsListViewController: UIViewController {
             guard let sectionId = payload["section_id"] as? Int else {
                 return
             }
-            
             performSegue(withIdentifier: "showDetail", sender: sectionId)
         }
-    }
-    
-    @IBAction func settingsPressed(_ sender: Any) {
-        
     }
 }
 

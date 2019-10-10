@@ -135,7 +135,6 @@
                     <navigationItem key="navigationItem" id="FX0-EH-R3w">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="05S-ky-IWy">
                             <connections>
-                                <action selector="settingsPressed:" destination="Zvz-ru-fV5" id="jUg-vT-ZF2"/>
                                 <segue destination="hqO-Ai-Sf1" kind="show" identifier="settingsSegue" id="IMi-vV-eOx"/>
                             </connections>
                         </barButtonItem>
