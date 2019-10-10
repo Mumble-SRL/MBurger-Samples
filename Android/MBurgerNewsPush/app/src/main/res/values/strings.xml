@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MBurger Push News</string>
+    <string name="loading">Loading</string>
+    <string name="all">All</string>
+    <string name="sport">Sport</string>
+    <string name="tech">Tech</string>
+    <string name="society">Society</string>
+    <string name="news">News</string>
+    <string name="no_elements">No elements</string>
+    <string name="push_notifications">Push Notifications</string>
+</resources>
