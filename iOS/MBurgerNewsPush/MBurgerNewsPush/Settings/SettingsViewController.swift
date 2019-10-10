@@ -7,24 +7,60 @@
 //
 
 import UIKit
+import MPushSwift
 
 class SettingsViewController: UIViewController {
-
+    @IBOutlet var tableView: UITableView!
+    
+    private let rowTitle = "Push On/Off"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.largeTitleDisplayMode = .never
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.rowHeight = 60
+        tableView.separatorStyle = .none
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func switchValueChanged(_ sender: UISwitch) {
+        NotificationsController.shared.pushNotificationsEnabled = sender.isOn
+        if sender.isOn {
+            subscribe()
+        } else {
+            unsubscribe()
+        }
     }
-    */
+    
+    fileprivate func unsubscribe() {
+        MPush.unregister(fromTopic: Configuration.mpushTopic)
+    }
+    
+    fileprivate func subscribe() {
+        MPush.register(toTopic: Configuration.mpushTopic)
+    }
+}
 
+extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
+        }
+        
+        let switchView = UISwitch(frame: .zero)
+        switchView.setOn(NotificationsController.shared.pushNotificationsEnabled, animated: true)
+        switchView.tag = indexPath.row // for detect which row switch Changed
+        switchView.addTarget(self, action: #selector(switchValueChanged(_:)), for: .valueChanged)
+        cell?.accessoryView = switchView
+        cell?.textLabel?.text = rowTitle
+        return cell ?? UITableViewCell()
+    }
 }

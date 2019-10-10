@@ -1,0 +1,6 @@
+framework module Pods_MBurgerNewsPush {
+  umbrella header "Pods-MBurgerNewsPush-umbrella.h"
+
+  export *
+  module * { export * }
+}
