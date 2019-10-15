@@ -4,7 +4,7 @@
 
 # MBurgerNews
 
-Sample apps to showcase the possibilities of [MBurger](https://web.mburger.cloud/).
+Sample apps to showcase the possibilities of [MBurger](https://web.mburger.cloud/)
 
 
 You can find the accompaining articles here:  
