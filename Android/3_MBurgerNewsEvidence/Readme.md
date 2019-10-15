@@ -8,7 +8,7 @@ MBurger sample with a simple list of news and a detail view and a news in eviden
 
 # Screenshots
 <p align="center">
-<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/3.%20MBurgerNewsEvidence/Images/Screenshot1.png" alt="Screenshot 1" title="Screenshot 1" width="250">
+<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/3_MBurgerNewsEvidence/Images/Screenshot_1.png" alt="Screenshot 1" title="Screenshot 1" width="250">
 <span style="display:inline-block; width: 50;"></span>
-<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/3.%20MBurgerNewsEvidence/Images/Screenshot2.png" alt="Screenshot 2" title="Screenshot 2" width="250">
+<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/3_MBurgerNewsEvidence/Images/Screenshot_2.png" alt="Screenshot 2" title="Screenshot 2" width="250">
 </p>
