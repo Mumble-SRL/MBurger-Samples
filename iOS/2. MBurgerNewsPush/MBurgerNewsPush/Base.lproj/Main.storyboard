@@ -65,7 +65,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h1K-dS-n0J">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTableViewCell" rowHeight="100" id="CVt-kA-uy5" customClass="NewsTableViewCell" customModule="MBurgerNewsPush" customModuleProvider="target">
@@ -128,7 +128,7 @@
                             <constraint firstItem="lKK-ij-o0E" firstAttribute="bottom" secondItem="h1K-dS-n0J" secondAttribute="bottom" id="Wu3-Y4-wHg"/>
                             <constraint firstItem="h1K-dS-n0J" firstAttribute="leading" secondItem="lKK-ij-o0E" secondAttribute="leading" id="WyW-Pj-gyP"/>
                             <constraint firstItem="lKK-ij-o0E" firstAttribute="trailing" secondItem="h1K-dS-n0J" secondAttribute="trailing" id="a6a-81-SX7"/>
-                            <constraint firstItem="h1K-dS-n0J" firstAttribute="top" secondItem="lKK-ij-o0E" secondAttribute="top" id="lTf-20-2i0"/>
+                            <constraint firstItem="h1K-dS-n0J" firstAttribute="top" secondItem="yhY-fy-CLW" secondAttribute="top" id="lTf-20-2i0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lKK-ij-o0E"/>
                     </view>

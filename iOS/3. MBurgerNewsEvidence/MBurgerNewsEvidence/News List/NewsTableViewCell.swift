@@ -52,6 +52,20 @@ class NewsTableViewCell: UITableViewCell {
             })
             imageDownloadTask?.resume()
         }
+        
+        if news.inEvidence {
+            accessoryView = evidenceView()
+        } else {
+            accessoryView = nil
+        }
+    }
+    
+    func evidenceView() -> UIView {
+        let size: CGFloat = 10
+        let evidenceView = UIView(frame: CGRect(x: 0, y: 0, width: size, height: size))
+        evidenceView.backgroundColor = UIColor.red
+        evidenceView.layer.cornerRadius = size / 2
+        return evidenceView
     }
     
     override func prepareForReuse() {

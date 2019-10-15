@@ -22,6 +22,7 @@ class News: NSObject {
     @objc var images: [MBImage]!
     @objc var date: Date!
     var category: NewsCategory!
+    var inEvidence: Bool!
 
     convenience init(section: MBSection) {
         self.init()
@@ -31,7 +32,8 @@ class News: NSObject {
                                                     "images": "images"])
         
         date = section.availableAt
-        
+        inEvidence = section.inEvidence
+
         if let categoryDropdown = section.elements?["category"] as? MBDropdownElement {
             category = NewsCategory(rawValue: categoryDropdown.selectedOption ?? "tech") ?? .tech
         } else { /// Defaults to tech
