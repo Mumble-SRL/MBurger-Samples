@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'MBurgerNews' do
+  use_frameworks!
+
+  pod 'MBurger', '~> 1.0.14'
+  pod 'Down'
+end
