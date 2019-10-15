@@ -1,0 +1,6 @@
+framework module Pods_MBurgerNewsEvidence {
+  umbrella header "Pods-MBurgerNewsEvidence-umbrella.h"
+
+  export *
+  module * { export * }
+}
