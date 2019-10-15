@@ -19,7 +19,7 @@ You can find the accompaining articles here:
 <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/2.%20MBurgerNewsPush/Images/Screenshot1.png" alt="Screenshot 1" title="Screenshot 2 iOS" width="250">
 <span style="display:inline-block; width: 50;"></span>
 <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/3.%20MBurgerNewsEvidence/Images/Screenshot2.png" alt="Screenshot 3 iOS" title="Screenshot 2" width="250">
-<br>
+<br><br>
   <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/1_MBurgerNews/Images/SShot1.png" alt="Screenshot 1" title="Screenshot 1 Android" width="250">
  <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/2_MBurgerNewsPush/Images/SShot1.png" alt="Screenshot 1" title="Screenshot 1 Android" width="250">
 <span style="display:inline-block; width: 50;"></span>
