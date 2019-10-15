@@ -52,6 +52,7 @@
 #import "MBPaginationParameter.h"
 #import "MBParameter.h"
 #import "MBSortParameter.h"
+#import "MBEvidenceInformations.h"
 #import "MBLegalContract.h"
 #import "MBProject.h"
 #import "MBSection.h"
