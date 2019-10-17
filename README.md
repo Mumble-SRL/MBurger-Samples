@@ -11,7 +11,7 @@ You can find the accompaining articles here:
 
 1. [MBurgerNews](https://web.mburger.cloud/article/mburger-samples-news)
 2. [MBurgerNewsPush](https://web.mburger.cloud/article/mburger-samples-push-notifications)
-3. [MBurgerNewsEvidence](https://web.mburger.cloud/article/sample-how-to-use-push-notifications-with-mburger-and-mpush)
+3. [MBurgerNewsEvidence](https://web.mburger.cloud/article/sample-featured-content)
 
 # Screenshots
 <p align="center">

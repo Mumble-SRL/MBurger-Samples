@@ -15,7 +15,6 @@ import com.google.android.material.tabs.TabLayout
 import com.mumble.mburger.evidence_sample.Controllers.Config
 import com.mumble.mburger.evidence_sample.Controllers.CustomComponents
 import com.mumble.mburger.evidence_sample.Controllers.Item_News_Adapter
-import com.mumble.mburger.evidence_sample.Data.EvidenceElement
 import com.mumble.mburger.evidence_sample.Data.News
 import com.mumble.mburger.evidence_sample.R
 import kotlinx.android.synthetic.main.act_list.*
@@ -23,6 +22,7 @@ import mumble.mburger.sdk.MBClient.MBApiFilters.MBFilterParameter
 import mumble.mburger.sdk.MBClient.MBApiResultsLIsteners.MBApiProjectResultListener
 import mumble.mburger.sdk.MBClient.MBApiResultsLIsteners.MBApiSectionsResultListener
 import mumble.mburger.sdk.MBClient.MBData.MBPaginationInfo
+import mumble.mburger.sdk.MBClient.MBData.MBProjects.MBEvidenceObject
 import mumble.mburger.sdk.MBClient.MBData.MBProjects.MBProject
 import mumble.mburger.sdk.MBClient.MBData.MBSections.MBSection
 import mumble.mburger.sdk.MBClient.MBMapper.MBFieldsMapping
@@ -37,7 +37,7 @@ class Act_list : MBApiProjectResultListener, MBApiSectionsResultListener, AppCom
     var selected_category: String? = null
 
     var askedForEvidence = false
-    var evidenceObject: EvidenceElement? = null
+    var evidenceObject: MBEvidenceObject? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -87,7 +87,7 @@ class Act_list : MBApiProjectResultListener, MBApiSectionsResultListener, AppCom
             CustomComponents.registerForPush(applicationContext)
         }
 
-        list_evidence_layout.layoutParams.height = CustomComponents.getScreenWidth(this)/2
+        list_evidence_layout.layoutParams.height = CustomComponents.getScreenWidth(this) / 2
         list_evidence_layout.setOnClickListener {
             val intentD = Intent(applicationContext, Act_detail::class.java)
             intentD.putExtra("section_id", evidenceObject!!.section_id)
@@ -152,7 +152,7 @@ class Act_list : MBApiProjectResultListener, MBApiSectionsResultListener, AppCom
         if (evidenceObject != null) {
             setEvidence()
             list_evidence_layout.visibility = View.VISIBLE
-        }else{
+        } else {
             list_evidence_layout.visibility = View.GONE
         }
 
@@ -165,7 +165,7 @@ class Act_list : MBApiProjectResultListener, MBApiSectionsResultListener, AppCom
             }
 
             var evidenceSectionId = -1L
-            if(evidenceObject != null){
+            if (evidenceObject != null) {
                 evidenceSectionId = evidenceObject!!.section_id
             }
 
@@ -186,18 +186,17 @@ class Act_list : MBApiProjectResultListener, MBApiSectionsResultListener, AppCom
         pd.show()
     }
 
-    fun setEvidence(){
+    fun setEvidence() {
         list_evidence_title.text = evidenceObject!!.title
-        if(evidenceObject!!.image != null) {
+        if (evidenceObject!!.image != null) {
             Glide.with(this).load(evidenceObject!!.image).into(list_evidence_img)
         }
     }
 
     override fun onProjectApiResult(project: MBProject?) {
         askedForEvidence = true
-        if (project!!.evidence_section_id != -1L) {
-            evidenceObject = EvidenceElement(project.evidence_id, project.evidence_block_id, project.evidence_section_id,
-                    project.evidence_title, project.evidence_image)
+        if (project!!.evidenceObject != null) {
+            evidenceObject = project.evidenceObject
         }
 
         if (news == null) {
