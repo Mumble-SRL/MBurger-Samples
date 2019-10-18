@@ -7,7 +7,7 @@
 Sample apps to showcase the possibilities of [MBurger](https://web.mburger.cloud/).
 
 
-You can find the accompaining articles here:  
+You can find the accompaining articles [here](https://web.mburger.cloud/blog/sample):  
 
 1. [MBurgerNews](https://web.mburger.cloud/article/mburger-samples-news)
 2. [MBurgerNewsPush](https://web.mburger.cloud/article/mburger-samples-push-notifications)
