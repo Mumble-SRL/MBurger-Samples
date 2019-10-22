@@ -28,7 +28,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'mumble.mburger:android:1.5.4'
+    implementation 'mumble.mburger:android:1.7.2'
     implementation 'mumble.mburger:mpush-android:1.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
