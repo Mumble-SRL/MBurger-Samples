@@ -1,10 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
   - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -12,17 +6,15 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - Down (0.9.0)
-  - MBurger (1.0.14):
-    - AFNetworking (~> 3.0)
+  - MBurger (1.0.15):
+    - AFNetworking/NSURLSession (~> 3.0)
     - SAMKeychain (~> 1.5)
   - SAMKeychain (1.5.3)
 
 DEPENDENCIES:
   - Down
-  - MBurger (~> 1.0.14)
+  - MBurger (~> 1.0.15)
 
 SPEC REPOS:
   trunk:
@@ -34,9 +26,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Down: 1cdbca4963b542d0ef34ebb3e10ff48382bdf761
-  MBurger: 44146f00a3a4ce8495ce78b86d0d418b0e17bb91
+  MBurger: 4e25c55fe3381075de20f151b93c4c24c5172c4d
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: 4a295b91897b849b0d07f756f574136444e3b8ef
+PODFILE CHECKSUM: 140053f2c7c25344da69d283cb223e0b97825bfd
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4

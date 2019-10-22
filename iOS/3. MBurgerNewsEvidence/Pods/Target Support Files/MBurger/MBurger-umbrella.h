@@ -43,6 +43,7 @@
 #import "MBMarkdownElement.h"
 #import "MBMediaElement.h"
 #import "MBPollElement.h"
+#import "MBRelationElement.h"
 #import "MBTextElement.h"
 #import "MBWysiwygElement.h"
 #import "MBPaginationInfo.h"

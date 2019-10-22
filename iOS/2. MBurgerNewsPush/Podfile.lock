@@ -1,10 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
   - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -12,12 +6,10 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - Alamofire (4.9.0)
   - Down (0.9.0)
-  - MBurger (1.0.14):
-    - AFNetworking (~> 3.0)
+  - MBurger (1.0.15):
+    - AFNetworking/NSURLSession (~> 3.0)
     - SAMKeychain (~> 1.5)
   - MPushSwift (0.2.6):
     - Alamofire (~> 4.0)
@@ -25,7 +17,7 @@ PODS:
 
 DEPENDENCIES:
   - Down
-  - MBurger (~> 1.0.14)
+  - MBurger (~> 1.0.15)
   - MPushSwift
 
 SPEC REPOS:
@@ -41,10 +33,10 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Down: 1cdbca4963b542d0ef34ebb3e10ff48382bdf761
-  MBurger: 44146f00a3a4ce8495ce78b86d0d418b0e17bb91
+  MBurger: 4e25c55fe3381075de20f151b93c4c24c5172c4d
   MPushSwift: 6a714bad010b2e0d1c000f95dc84376e727b27da
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: af05a0a2b5f9074e48d6ffb5b83388872f9c21ed
+PODFILE CHECKSUM: ee0df5a516a0a8fc67de56a116ffde7ec4fca00c
 
 COCOAPODS: 1.8.3

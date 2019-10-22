@@ -1,0 +1,6 @@
+framework module MBurger {
+  umbrella header "MBurger-umbrella.h"
+
+  export *
+  module * { export * }
+}
