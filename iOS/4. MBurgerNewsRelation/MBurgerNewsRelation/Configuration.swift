@@ -10,8 +10,8 @@ import UIKit
 
 struct Configuration {
     //@TODO configure with your settings
-    static let mburgerToken = "fe9f9fcd71646a1112939bb7836fab846221012f"
-    static let newsBlockId = 628
-    static let mpushToken = "GzxfFeARgX1VPGc2TvZ9WeqeyaL5nUSxm7jIx7X7"
-    static let mpushTopic = "project.54"
+    static let mburgerToken = ""
+    static let newsBlockId = 0
+    static let mpushToken = ""
+    static let mpushTopic = ""
 }
