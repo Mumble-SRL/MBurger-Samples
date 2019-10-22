@@ -12,6 +12,9 @@ You can find the accompaining articles [here](https://web.mburger.cloud/blog/sam
 1. [MBurgerNews](https://web.mburger.cloud/article/mburger-samples-news)
 2. [MBurgerNewsPush](https://web.mburger.cloud/article/mburger-samples-push-notifications)
 3. [MBurgerNewsEvidence](https://web.mburger.cloud/article/sample-featured-content)
+4. [MBurgerNewsRelation](https://web.mburger.cloud/article/sample-relations)
+
+
 
 # Screenshots
 <p align="center">
