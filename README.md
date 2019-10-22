@@ -21,7 +21,7 @@ You can find the accompaining articles [here](https://web.mburger.cloud/blog/sam
 <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/3.%20MBurgerNewsEvidence/Images/Screenshot1.png" alt="Screenshot 1 iOS" title="Screenshot 1" width="250">
 <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/2.%20MBurgerNewsPush/Images/Screenshot1.png" alt="Screenshot 1" title="Screenshot 2 iOS" width="250">
 <span style="display:inline-block; width: 50;"></span>
-<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/3.%20MBurgerNewsEvidence/Images/Screenshot2.png" alt="Screenshot 3 iOS" title="Screenshot 2" width="250">
+<img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/iOS/4.%20MBurgerNewsRelation/Images/Screenshot2.png" alt="Screenshot 3 iOS" title="Screenshot 2" width="250">
 <br><br>
   <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/3_MBurgerNewsEvidence/Images/Screenshot_1.png" alt="Screenshot 1" title="Screenshot 1 Android" width="250">
  <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Samples/master/Android/2_MBurgerNewsPush/Images/SShot1.png" alt="Screenshot 1" title="Screenshot 1 Android" width="250">
