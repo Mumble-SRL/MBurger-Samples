@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cat_all"
+        android:title="@string/all" />
+    <item
+        android:id="@+id/cat_sport"
+        android:title="@string/sport" />
+    <item
+        android:id="@+id/cat_tech"
+        android:title="@string/tech" />
+    <item
+        android:id="@+id/cat_society"
+        android:title="@string/society" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_id">mburger_news_app_not</string>
+    <string name="notif_channel_name">Push Notifications</string>
+    <string name="notif_channel_desc">MBurger news push</string>
+</resources>
