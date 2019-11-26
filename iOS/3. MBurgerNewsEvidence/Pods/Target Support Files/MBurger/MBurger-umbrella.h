@@ -60,8 +60,6 @@
 #import "MBManager.h"
 #import "MBUtilities.h"
 #import "MBPlugin.h"
-#import "MBPush.h"
-#import "MBPushApiManager.h"
 
 FOUNDATION_EXPORT double MBurgerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MBurgerVersionString[];

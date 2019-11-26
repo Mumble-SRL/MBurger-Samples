@@ -7,14 +7,14 @@ PODS:
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
   - Down (0.9.0)
-  - MBurger (1.0.15):
+  - MBurger (1.0.17):
     - AFNetworking/NSURLSession (~> 3.0)
     - SAMKeychain (~> 1.5)
   - SAMKeychain (1.5.3)
 
 DEPENDENCIES:
   - Down
-  - MBurger (~> 1.0.15)
+  - MBurger (~> 1.0.17)
 
 SPEC REPOS:
   trunk:
@@ -26,9 +26,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Down: 1cdbca4963b542d0ef34ebb3e10ff48382bdf761
-  MBurger: 4e25c55fe3381075de20f151b93c4c24c5172c4d
+  MBurger: c826f826ba24ce980ea0add9e873eb1567baa599
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: 140053f2c7c25344da69d283cb223e0b97825bfd
+PODFILE CHECKSUM: 42133338a7a59240519c8c069130ee720f0eaf07
 
 COCOAPODS: 1.8.4

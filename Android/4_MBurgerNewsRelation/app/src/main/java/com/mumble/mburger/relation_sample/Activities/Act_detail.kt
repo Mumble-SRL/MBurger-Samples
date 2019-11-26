@@ -97,7 +97,7 @@ class Act_detail : AppCompatActivity() {
 
     fun getAuthor() {
         if (news!!.author != null) {
-            if (news!!.author!!.block_id != Config.BLOCK_AUTHOR) {
+            if (news!!.author!!.block_id == Config.BLOCK_AUTHOR) {
                 MBurgerTasks.askForSection(applicationContext, news!!.author!!.section_id, true, object : MBApiSectionResultListener {
                     override fun onSectionApiResult(section: MBSection, section_id: Long) {
                         val fieldsMapping = MBFieldsMapping()
